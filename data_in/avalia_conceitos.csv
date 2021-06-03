@@ -1,0 +1,6 @@
+base|avaliacao|c1|c2|res_in
+pizza_adj|pizza|pizza.Hot|owl.Thing|0.33
+pizza_adj|pizza|owl.Thing|owl.Thing|1.00
+pizza_adj|pizza|owl.Thing|pizza.Food|0.50
+pizza_adj|pizza|pizza.Hot|pizza.Mild|0.33
+pizza_adj|pizza|pizza.DomainConcept|pizza.DomainConcept|1.00

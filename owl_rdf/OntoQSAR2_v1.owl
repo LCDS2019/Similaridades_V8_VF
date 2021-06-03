@@ -1,0 +1,2660 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://nemo.inf.ufes.br/OntoQSAR.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://nemo.inf.ufes.br/OntoQSAR.owl">
+    <Prefix name="" IRI="http://nemo.inf.ufes.br/OntoQSAR.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="obda" IRI="https://w3id.org/obda/vocabulary#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Absorption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Algorithm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AlogP_descriptor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assay_method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atom-type_H_E-State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BBB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biological_Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biological_Target"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Charges"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemical_Descriptor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contribution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diagnosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dipole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EC50"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Esolv.Water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Excretion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Finger_Prints"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FreeE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Functional_Group_Descriptor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genetic_Algorithm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Highest_Occupied_Molecular_Orbital_Energy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IC50"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inhibitor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lowest_Unoccupied_Molecular_Orbital_Energy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metabolism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Molecular_mass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monte_Carlo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Osc.Force"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pharmacokinetics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pharmacophoric_Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QSAR_descriptor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Supervised_Learning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tissue_Distribution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toxicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trial_and_Error"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Validation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZeroE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ab_initio_quantum_chemistry_computational_method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#acidic_group_count"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alcohol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aldehyde"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aromatic_atom_count"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#atom_count"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#atomic_QSAR_descriptor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#basic_group_count"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#benzene"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bioassay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bond_count"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#carboxylic_acid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cross-validation_information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cycle_count"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cycle_count_containing_heteroatoms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#drug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ester"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ether"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#external_validation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hartree-fock_method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heavy_atom_count"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hydrocarbon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hydrogen_bond_acceptors_count"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hydrogen_bond_donors_count"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#in_silico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#in_vitro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#in_vivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#internal_validation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ketone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#linear_QSAR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lipinski"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#molar_refractivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non-linear_dimensional_QSAR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pIC50"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pKi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#partition_coefficient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phenols"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pi-electron_computational_method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plane_polarized_light_method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#polar_surface_area_descriptor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#publication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#regression_statistics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rotatable_bond_count"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#semi-empirical_quantum_chemistry_method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#split_validation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#three_dimensional_QSAR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tumor_size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#two_dimensional_QSAR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#valence_electron_computational_method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#y_scrambling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zagreb_index"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Abs.máx(eV)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Abs.máx(nM)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Minimum_E-States_for_(strong)_Hydrogen_Bond_acceptors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Minimum_E-States_for_(strong)_Hydrogen_Bond_donors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moreau-Broto_autocorrelation(first_ionization_potential)_descriptors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moreau-Broto_autocorrelation(mass)_descriptors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moreau-Broto_autocorrelation(polarizability)_descriptors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moreau-Broto_autocorrelation(van_der_Waals_volumes)_descriptors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sum_of_atom-type_H_E-State(NH)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sum_of_atom-type_H_E-State(NH2)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sum_of_atom-type_H_E-State(OH)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sum_of_atom-type_H_E-State(SH2)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hydrogen_bond_acceptors_count(using_Lipinski’s_definition)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hydrogen_bond_donnors_count(using_Lipinski’s_definition)"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#algorithm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#assay_method"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#biological_activity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#biological_target"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#chemical_descriptor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#diagnosis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#functional_group_descriptor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inhibitor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pharmacokinetics"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pharmacophoric_group"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#publication"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#qsar_descriptor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quantum_chemistry_computational_method"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#validation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Absorption_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AlogP_descriptor_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#BBB_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Biological_Target_PDB"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Biological_Target_family"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Biological_Target_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Charges_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Chemical_Descriptor_ID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Contribution_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Dipole_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EC50_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Esolv.Water_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Excretion_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Finger_Prints_PubChem"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Finger_Prints_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#FreeE_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Functional_Group_Descriptor_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HBA_count_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HBD_count_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HOMO_Energy_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#IC50_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Inhibitor_ID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#LUMO_Energy_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Metabolism_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Molecular_mass_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Osc.Force_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Pharmacophoric_Group_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Tissue_Distribution_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Toxicity_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Transition_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ZeroE_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ab_initio_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#acidic_group_count_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#alcohol_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#aldehyde_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amide_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amine_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#aromatic_atom_count_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#atom_count_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#atomic_QSAR_descriptor_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#basic_group_count_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#benzene_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#bioassay_method"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#bond_count_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#carbon_atom_count"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#carboxylic_acid_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#chlorine_atom_count"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cross-validation_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cycle_count_containing_heteroatoms_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cycle_count_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#disease_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#double_bond_count"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#drug_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#drug_phase"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ester_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ether_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#external_validation_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fluorine_atom_count"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#genetic_algorithm_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#halogen_atom_count"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hartree-fock_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#heavy_atom_count_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hydrocarbon_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hydrogen_atom_count"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#in_silico_method"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#in_vitro_celular_lineage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#in_vitro_method"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#in_vitro_temperature"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#in_vivo_method"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#in_vivo_organism"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#internal_validation_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ketone_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#linear_QSAR_software"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lipinski_violation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#molar_refractivity_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#monte_carlo_algorithm_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nitrogen_atom_count"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#non-linear_dimensional_QSAR_software"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#oxygen_atom_count"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pIC50_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pKi_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#partition_coefficient_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#phenols_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pi-electron_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#plane_polarized_light_method_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#polar_surface_area_descriptor_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#publication_DOI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#publication_authors"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#publication_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#publication_journal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#publication_title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#regression_statistics_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rotatable_bond_count_excluding_terminal_bonds"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rotatable_bond_count_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#semi-empirical_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#single_bond_count"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#split_validation_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#supervised_learning_algorithm_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#three_dimensional_QSAR_software"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#trial_and_error_algorithm_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#triple_bond_count"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tumor_aggressiveness"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tumor_phase"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tumor_size_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#two_dimensional_QSAR_software"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#valence_electron_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#y_scrambling_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#zagreb_index_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Abs.máx(eV)_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Abs.máx(nM)_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HBA_count(Lipinski_definition)_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HBD_count(Lipinski_definition)_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Minimum_E-States_for_(strong)_Hydrogen_Bond_acceptors_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Minimum_E-States_for_(strong)_Hydrogen_Bond_donors_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Moreau-Broto_autocorrelation(first_ionization_potential)_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Moreau-Broto_autocorrelation(mass)_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Moreau-Broto_autocorrelation(polarizability)_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Moreau-Broto_autocorrelation(van_der_Waals_volumes)_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sum_of_atom-type_H_E-State(NH)_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sum_of_atom-type_H_E-State(NH2)_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sum_of_atom-type_H_E-State(OH)_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sum_of_atom-type_H_E-State(SH2)_value"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Absorption"/>
+        <Class IRI="#Pharmacokinetics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Algorithm"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Algorithm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#algorithm"/>
+            <Class IRI="#QSAR_descriptor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AlogP_descriptor"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay_method"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay_method"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#assay_method"/>
+            <Class IRI="#Inhibitor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atom-type_H_E-State"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BBB"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biological_Activity"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biological_Activity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#biological_activity"/>
+            <Class IRI="#Inhibitor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biological_Target"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biological_Target"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#biological_target"/>
+            <Class IRI="#Diagnosis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biological_Target"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#biological_target"/>
+            <Class IRI="#Inhibitor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Charges"/>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemical_Descriptor"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemical_Descriptor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#chemical_descriptor"/>
+            <Class IRI="#Inhibitor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemical_Descriptor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#chemical_descriptor"/>
+            <Class IRI="#QSAR_descriptor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemical_Descriptor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#chemical_descriptor"/>
+            <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contribution"/>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diagnosis"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diagnosis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#diagnosis"/>
+            <Class IRI="#Biological_Target"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dipole"/>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EC50"/>
+        <Class IRI="#Biological_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Esolv.Water"/>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Excretion"/>
+        <Class IRI="#Pharmacokinetics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Finger_Prints"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreeE"/>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Functional_Group_Descriptor"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Functional_Group_Descriptor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#functional_group_descriptor"/>
+            <Class IRI="#Inhibitor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Genetic_Algorithm"/>
+        <Class IRI="#Algorithm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Highest_Occupied_Molecular_Orbital_Energy"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IC50"/>
+        <Class IRI="#Biological_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inhibitor"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inhibitor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#inhibitor"/>
+            <Class IRI="#Assay_method"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inhibitor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#inhibitor"/>
+            <Class IRI="#Biological_Activity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inhibitor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#inhibitor"/>
+            <Class IRI="#Biological_Target"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inhibitor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#inhibitor"/>
+            <Class IRI="#Chemical_Descriptor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inhibitor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#inhibitor"/>
+            <Class IRI="#Functional_Group_Descriptor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inhibitor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#inhibitor"/>
+            <Class IRI="#Pharmacokinetics"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inhibitor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#inhibitor"/>
+            <Class IRI="#Pharmacophoric_Group"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inhibitor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#inhibitor"/>
+            <Class IRI="#publication"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lowest_Unoccupied_Molecular_Orbital_Energy"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metabolism"/>
+        <Class IRI="#Pharmacokinetics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Molecular_mass"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monte_Carlo"/>
+        <Class IRI="#Algorithm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Osc.Force"/>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pharmacokinetics"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pharmacokinetics"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#pharmacokinetics"/>
+            <Class IRI="#Inhibitor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pharmacophoric_Group"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pharmacophoric_Group"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#pharmacophoric_group"/>
+            <Class IRI="#Inhibitor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QSAR_descriptor"/>
+        <Class IRI="#in_silico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QSAR_descriptor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#qsar_descriptor"/>
+            <Class IRI="#Algorithm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QSAR_descriptor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#qsar_descriptor"/>
+            <Class IRI="#Chemical_Descriptor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QSAR_descriptor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#qsar_descriptor"/>
+            <Class IRI="#Validation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#quantum_chemistry_computational_method"/>
+            <Class IRI="#Chemical_Descriptor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Supervised_Learning"/>
+        <Class IRI="#Algorithm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tissue_Distribution"/>
+        <Class IRI="#Pharmacokinetics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toxicity"/>
+        <Class IRI="#Pharmacokinetics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transition"/>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trial_and_Error"/>
+        <Class IRI="#Algorithm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Validation"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Validation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#validation"/>
+            <Class IRI="#QSAR_descriptor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZeroE"/>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ab_initio_quantum_chemistry_computational_method"/>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#acidic_group_count"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alcohol"/>
+        <Class IRI="#Functional_Group_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aldehyde"/>
+        <Class IRI="#Functional_Group_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amide"/>
+        <Class IRI="#Functional_Group_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amine"/>
+        <Class IRI="#Functional_Group_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aromatic_atom_count"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#atom_count"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#atomic_QSAR_descriptor"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#basic_group_count"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#benzene"/>
+        <Class IRI="#Functional_Group_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bioassay"/>
+        <Class IRI="#Assay_method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bond_count"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#carboxylic_acid"/>
+        <Class IRI="#Functional_Group_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cross-validation_information"/>
+        <Class IRI="#Validation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cycle_count"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cycle_count_containing_heteroatoms"/>
+        <Class IRI="#cycle_count"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#drug"/>
+        <Class IRI="#Inhibitor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ester"/>
+        <Class IRI="#Functional_Group_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ether"/>
+        <Class IRI="#Functional_Group_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#external_validation"/>
+        <Class IRI="#Validation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hartree-fock_method"/>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heavy_atom_count"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hydrocarbon"/>
+        <Class IRI="#Functional_Group_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hydrogen_bond_acceptors_count"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hydrogen_bond_donors_count"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#in_silico"/>
+        <Class IRI="#Assay_method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#in_vitro"/>
+        <Class IRI="#Assay_method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#in_vivo"/>
+        <Class IRI="#Assay_method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#internal_validation"/>
+        <Class IRI="#Validation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ketone"/>
+        <Class IRI="#Functional_Group_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#linear_QSAR"/>
+        <Class IRI="#QSAR_descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lipinski"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#molar_refractivity"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non-linear_dimensional_QSAR"/>
+        <Class IRI="#QSAR_descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pIC50"/>
+        <Class IRI="#Biological_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pKi"/>
+        <Class IRI="#Biological_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#partition_coefficient"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phenols"/>
+        <Class IRI="#Functional_Group_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pi-electron_computational_method"/>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plane_polarized_light_method"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#polar_surface_area_descriptor"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#publication"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#publication"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#publication"/>
+            <Class IRI="#Inhibitor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#regression_statistics"/>
+        <Class IRI="#Validation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rotatable_bond_count"/>
+        <Class IRI="#bond_count"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#semi-empirical_quantum_chemistry_method"/>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#split_validation"/>
+        <Class IRI="#Validation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#three_dimensional_QSAR"/>
+        <Class IRI="#QSAR_descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tumor_size"/>
+        <Class IRI="#Diagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#two_dimensional_QSAR"/>
+        <Class IRI="#QSAR_descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#valence_electron_computational_method"/>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#y_scrambling"/>
+        <Class IRI="#Validation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zagreb_index"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Abs.máx(eV)"/>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Abs.máx(nM)"/>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Minimum_E-States_for_(strong)_Hydrogen_Bond_acceptors"/>
+        <Class IRI="#Atom-type_H_E-State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Minimum_E-States_for_(strong)_Hydrogen_Bond_donors"/>
+        <Class IRI="#Atom-type_H_E-State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moreau-Broto_autocorrelation(first_ionization_potential)_descriptors"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moreau-Broto_autocorrelation(mass)_descriptors"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moreau-Broto_autocorrelation(polarizability)_descriptors"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moreau-Broto_autocorrelation(van_der_Waals_volumes)_descriptors"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sum_of_atom-type_H_E-State(NH)"/>
+        <Class IRI="#Atom-type_H_E-State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sum_of_atom-type_H_E-State(NH2)"/>
+        <Class IRI="#Atom-type_H_E-State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sum_of_atom-type_H_E-State(OH)"/>
+        <Class IRI="#Atom-type_H_E-State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sum_of_atom-type_H_E-State(SH2)"/>
+        <Class IRI="#Atom-type_H_E-State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hydrogen_bond_acceptors_count(using_Lipinski’s_definition)"/>
+        <Class IRI="#hydrogen_bond_acceptors_count"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hydrogen_bond_donnors_count(using_Lipinski’s_definition)"/>
+        <Class IRI="#hydrogen_bond_donors_count"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Algorithm"/>
+        <Class IRI="#Assay_method"/>
+        <Class IRI="#Biological_Activity"/>
+        <Class IRI="#Biological_Target"/>
+        <Class IRI="#Chemical_Descriptor"/>
+        <Class IRI="#Diagnosis"/>
+        <Class IRI="#Functional_Group_Descriptor"/>
+        <Class IRI="#Inhibitor"/>
+        <Class IRI="#Pharmacokinetics"/>
+        <Class IRI="#Pharmacophoric_Group"/>
+        <Class IRI="#QSAR_descriptor"/>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+        <Class IRI="#Validation"/>
+        <Class IRI="#publication"/>
+    </DisjointClasses>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#algorithm"/>
+        <ObjectProperty IRI="#qsar_descriptor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#assay_method"/>
+        <ObjectProperty IRI="#inhibitor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#biological_activity"/>
+        <ObjectProperty IRI="#inhibitor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#biological_target"/>
+        <ObjectProperty IRI="#diagnosis"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#biological_target"/>
+        <ObjectProperty IRI="#inhibitor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#chemical_descriptor"/>
+        <ObjectProperty IRI="#inhibitor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#chemical_descriptor"/>
+        <ObjectProperty IRI="#qsar_descriptor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#chemical_descriptor"/>
+        <ObjectProperty IRI="#quantum_chemistry_computational_method"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#functional_group_descriptor"/>
+        <ObjectProperty IRI="#inhibitor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#inhibitor"/>
+        <ObjectProperty IRI="#pharmacokinetics"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#inhibitor"/>
+        <ObjectProperty IRI="#pharmacophoric_group"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#inhibitor"/>
+        <ObjectProperty IRI="#publication"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#qsar_descriptor"/>
+        <ObjectProperty IRI="#validation"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#algorithm"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#assay_method"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#biological_activity"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#biological_target"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#chemical_descriptor"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#diagnosis"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#functional_group_descriptor"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#inhibitor"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#pharmacokinetics"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#pharmacophoric_group"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#publication"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#qsar_descriptor"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#quantum_chemistry_computational_method"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#validation"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#algorithm"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#assay_method"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#biological_activity"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#biological_target"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#chemical_descriptor"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#diagnosis"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#functional_group_descriptor"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#inhibitor"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#pharmacokinetics"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#pharmacophoric_group"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#publication"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#qsar_descriptor"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#quantum_chemistry_computational_method"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#validation"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#algorithm"/>
+        <Class IRI="#Algorithm"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#assay_method"/>
+        <Class IRI="#Assay_method"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#biological_activity"/>
+        <Class IRI="#Biological_Activity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#biological_target"/>
+        <Class IRI="#Biological_Target"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#chemical_descriptor"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#diagnosis"/>
+        <Class IRI="#Diagnosis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#functional_group_descriptor"/>
+        <Class IRI="#Functional_Group_Descriptor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inhibitor"/>
+        <Class IRI="#Inhibitor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pharmacokinetics"/>
+        <Class IRI="#Pharmacokinetics"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pharmacophoric_group"/>
+        <Class IRI="#Pharmacophoric_Group"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pharmacophoric_group"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#pharmacophoric_group"/>
+            <Class IRI="#Inhibitor"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#publication"/>
+        <Class IRI="#publication"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#qsar_descriptor"/>
+        <Class IRI="#QSAR_descriptor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quantum_chemistry_computational_method"/>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#validation"/>
+        <Class IRI="#Validation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#algorithm"/>
+        <Class IRI="#QSAR_descriptor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#assay_method"/>
+        <Class IRI="#Inhibitor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#biological_activity"/>
+        <Class IRI="#Inhibitor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#biological_target"/>
+        <Class IRI="#Diagnosis"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#biological_target"/>
+        <Class IRI="#Inhibitor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#chemical_descriptor"/>
+        <Class IRI="#Inhibitor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#chemical_descriptor"/>
+        <Class IRI="#QSAR_descriptor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#chemical_descriptor"/>
+        <Class IRI="#Quantum_Chemistry_Computational_Method"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#diagnosis"/>
+        <Class IRI="#Biological_Target"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#functional_group_descriptor"/>
+        <Class IRI="#Inhibitor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inhibitor"/>
+        <Class IRI="#Assay_method"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inhibitor"/>
+        <Class IRI="#Biological_Activity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inhibitor"/>
+        <Class IRI="#Biological_Target"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inhibitor"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inhibitor"/>
+        <Class IRI="#Functional_Group_Descriptor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inhibitor"/>
+        <Class IRI="#Pharmacokinetics"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inhibitor"/>
+        <Class IRI="#Pharmacophoric_Group"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inhibitor"/>
+        <Class IRI="#publication"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pharmacokinetics"/>
+        <Class IRI="#Inhibitor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pharmacophoric_group"/>
+        <Class IRI="#Inhibitor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#publication"/>
+        <Class IRI="#Inhibitor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#qsar_descriptor"/>
+        <Class IRI="#Algorithm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#qsar_descriptor"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#qsar_descriptor"/>
+        <Class IRI="#Validation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#quantum_chemistry_computational_method"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#validation"/>
+        <Class IRI="#QSAR_descriptor"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#EC50_value"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#heavy_atom_count_value"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#tumor_phase"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Absorption_value"/>
+        <Class IRI="#Absorption"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#AlogP_descriptor_value"/>
+        <Class IRI="#AlogP_descriptor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#BBB_value"/>
+        <Class IRI="#BBB"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Biological_Target_PDB"/>
+        <Class IRI="#Biological_Target"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Biological_Target_family"/>
+        <Class IRI="#Biological_Target"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Biological_Target_name"/>
+        <Class IRI="#Biological_Target"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Charges_value"/>
+        <Class IRI="#Charges"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Chemical_Descriptor_ID"/>
+        <Class IRI="#Chemical_Descriptor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Contribution_value"/>
+        <Class IRI="#Contribution"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Dipole_value"/>
+        <Class IRI="#Dipole"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#EC50_value"/>
+        <Class IRI="#EC50"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Esolv.Water_value"/>
+        <Class IRI="#Esolv.Water"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Excretion_value"/>
+        <Class IRI="#Excretion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Finger_Prints_PubChem"/>
+        <Class IRI="#Finger_Prints"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Finger_Prints_value"/>
+        <Class IRI="#Finger_Prints"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#FreeE_value"/>
+        <Class IRI="#FreeE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Functional_Group_Descriptor_value"/>
+        <Class IRI="#Functional_Group_Descriptor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HBA_count_value"/>
+        <Class IRI="#hydrogen_bond_acceptors_count"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HBD_count_value"/>
+        <Class IRI="#hydrogen_bond_donors_count"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HOMO_Energy_value"/>
+        <Class IRI="#Highest_Occupied_Molecular_Orbital_Energy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#IC50_value"/>
+        <Class IRI="#IC50"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Inhibitor_ID"/>
+        <Class IRI="#Inhibitor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#LUMO_Energy_value"/>
+        <Class IRI="#Lowest_Unoccupied_Molecular_Orbital_Energy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Metabolism_value"/>
+        <Class IRI="#Metabolism"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Molecular_mass_value"/>
+        <Class IRI="#Molecular_mass"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Osc.Force_value"/>
+        <Class IRI="#Osc.Force"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Pharmacophoric_Group_name"/>
+        <Class IRI="#Pharmacophoric_Group"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Tissue_Distribution_value"/>
+        <Class IRI="#Tissue_Distribution"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Toxicity_value"/>
+        <Class IRI="#Toxicity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Transition_value"/>
+        <Class IRI="#Transition"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ZeroE_value"/>
+        <Class IRI="#ZeroE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ab_initio_value"/>
+        <Class IRI="#ab_initio_quantum_chemistry_computational_method"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#acidic_group_count_value"/>
+        <Class IRI="#acidic_group_count"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#alcohol_value"/>
+        <Class IRI="#alcohol"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#aldehyde_value"/>
+        <Class IRI="#aldehyde"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#amide_value"/>
+        <Class IRI="#amide"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#amine_value"/>
+        <Class IRI="#amine"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#aromatic_atom_count_value"/>
+        <Class IRI="#aromatic_atom_count"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#atom_count_value"/>
+        <Class IRI="#atom_count"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#atomic_QSAR_descriptor_value"/>
+        <Class IRI="#atomic_QSAR_descriptor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#basic_group_count_value"/>
+        <Class IRI="#basic_group_count"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#benzene_value"/>
+        <Class IRI="#benzene"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#bioassay_method"/>
+        <Class IRI="#bioassay"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#bond_count_value"/>
+        <Class IRI="#bond_count"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#carbon_atom_count"/>
+        <Class IRI="#atomic_QSAR_descriptor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#carboxylic_acid_value"/>
+        <Class IRI="#carboxylic_acid"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#chlorine_atom_count"/>
+        <Class IRI="#atomic_QSAR_descriptor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cross-validation_value"/>
+        <Class IRI="#cross-validation_information"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cycle_count_containing_heteroatoms_value"/>
+        <Class IRI="#cycle_count_containing_heteroatoms"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cycle_count_value"/>
+        <Class IRI="#cycle_count"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#disease_name"/>
+        <Class IRI="#Diagnosis"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#double_bond_count"/>
+        <Class IRI="#bond_count"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#drug_name"/>
+        <Class IRI="#drug"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#drug_phase"/>
+        <Class IRI="#drug"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ester_value"/>
+        <Class IRI="#ester"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ether_value"/>
+        <Class IRI="#ether"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#external_validation_value"/>
+        <Class IRI="#external_validation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fluorine_atom_count"/>
+        <Class IRI="#atomic_QSAR_descriptor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#genetic_algorithm_name"/>
+        <Class IRI="#Genetic_Algorithm"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#halogen_atom_count"/>
+        <Class IRI="#atomic_QSAR_descriptor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hartree-fock_value"/>
+        <Class IRI="#hartree-fock_method"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#heavy_atom_count_value"/>
+        <Class IRI="#heavy_atom_count"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hydrocarbon_value"/>
+        <Class IRI="#hydrocarbon"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hydrogen_atom_count"/>
+        <Class IRI="#atomic_QSAR_descriptor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#in_silico_method"/>
+        <Class IRI="#in_silico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#in_vitro_celular_lineage"/>
+        <Class IRI="#in_vitro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#in_vitro_method"/>
+        <Class IRI="#in_vitro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#in_vitro_temperature"/>
+        <Class IRI="#in_vitro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#in_vivo_method"/>
+        <Class IRI="#in_vivo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#in_vivo_organism"/>
+        <Class IRI="#in_vivo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#internal_validation_value"/>
+        <Class IRI="#internal_validation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ketone_value"/>
+        <Class IRI="#ketone"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#linear_QSAR_software"/>
+        <Class IRI="#linear_QSAR"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#lipinski_violation"/>
+        <Class IRI="#lipinski"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#molar_refractivity_value"/>
+        <Class IRI="#molar_refractivity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#monte_carlo_algorithm_name"/>
+        <Class IRI="#Monte_Carlo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nitrogen_atom_count"/>
+        <Class IRI="#atomic_QSAR_descriptor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#non-linear_dimensional_QSAR_software"/>
+        <Class IRI="#non-linear_dimensional_QSAR"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#oxygen_atom_count"/>
+        <Class IRI="#atomic_QSAR_descriptor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#pIC50_value"/>
+        <Class IRI="#pIC50"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#pKi_value"/>
+        <Class IRI="#pKi"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#partition_coefficient_value"/>
+        <Class IRI="#partition_coefficient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#phenols_value"/>
+        <Class IRI="#phenols"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#pi-electron_value"/>
+        <Class IRI="#pi-electron_computational_method"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#plane_polarized_light_method_value"/>
+        <Class IRI="#plane_polarized_light_method"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#polar_surface_area_descriptor_value"/>
+        <Class IRI="#polar_surface_area_descriptor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#publication_DOI"/>
+        <Class IRI="#publication"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#publication_authors"/>
+        <Class IRI="#publication"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#publication_date"/>
+        <Class IRI="#publication"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#publication_journal"/>
+        <Class IRI="#publication"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#publication_title"/>
+        <Class IRI="#publication"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#regression_statistics_value"/>
+        <Class IRI="#regression_statistics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rotatable_bond_count_excluding_terminal_bonds"/>
+        <Class IRI="#rotatable_bond_count"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rotatable_bond_count_value"/>
+        <Class IRI="#rotatable_bond_count"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#semi-empirical_value"/>
+        <Class IRI="#semi-empirical_quantum_chemistry_method"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#single_bond_count"/>
+        <Class IRI="#bond_count"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#split_validation_value"/>
+        <Class IRI="#split_validation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#supervised_learning_algorithm_name"/>
+        <Class IRI="#Supervised_Learning"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#three_dimensional_QSAR_software"/>
+        <Class IRI="#three_dimensional_QSAR"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#trial_and_error_algorithm_name"/>
+        <Class IRI="#Trial_and_Error"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#triple_bond_count"/>
+        <Class IRI="#bond_count"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tumor_aggressiveness"/>
+        <Class IRI="#tumor_size"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tumor_phase"/>
+        <Class IRI="#tumor_size"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tumor_size_value"/>
+        <Class IRI="#tumor_size"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#two_dimensional_QSAR_software"/>
+        <Class IRI="#two_dimensional_QSAR"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#valence_electron_value"/>
+        <Class IRI="#valence_electron_computational_method"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#y_scrambling_value"/>
+        <Class IRI="#y_scrambling"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#zagreb_index_value"/>
+        <Class IRI="#zagreb_index"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Abs.máx(eV)_value"/>
+        <Class IRI="#Abs.máx(eV)"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Abs.máx(nM)_value"/>
+        <Class IRI="#Abs.máx(nM)"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HBA_count(Lipinski_definition)_value"/>
+        <Class IRI="#hydrogen_bond_acceptors_count(using_Lipinski’s_definition)"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HBD_count(Lipinski_definition)_value"/>
+        <Class IRI="#hydrogen_bond_donnors_count(using_Lipinski’s_definition)"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Minimum_E-States_for_(strong)_Hydrogen_Bond_acceptors_value"/>
+        <Class IRI="#Minimum_E-States_for_(strong)_Hydrogen_Bond_acceptors"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Minimum_E-States_for_(strong)_Hydrogen_Bond_donors_value"/>
+        <Class IRI="#Minimum_E-States_for_(strong)_Hydrogen_Bond_donors"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Moreau-Broto_autocorrelation(first_ionization_potential)_value"/>
+        <Class IRI="#Moreau-Broto_autocorrelation(first_ionization_potential)_descriptors"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Moreau-Broto_autocorrelation(mass)_value"/>
+        <Class IRI="#Moreau-Broto_autocorrelation(mass)_descriptors"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Moreau-Broto_autocorrelation(polarizability)_value"/>
+        <Class IRI="#Moreau-Broto_autocorrelation(polarizability)_descriptors"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Moreau-Broto_autocorrelation(van_der_Waals_volumes)_value"/>
+        <Class IRI="#Moreau-Broto_autocorrelation(van_der_Waals_volumes)_descriptors"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sum_of_atom-type_H_E-State(NH)_value"/>
+        <Class IRI="#Sum_of_atom-type_H_E-State(NH)"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sum_of_atom-type_H_E-State(NH2)_value"/>
+        <Class IRI="#Sum_of_atom-type_H_E-State(NH2)"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sum_of_atom-type_H_E-State(OH)_value"/>
+        <Class IRI="#Sum_of_atom-type_H_E-State(OH)"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sum_of_atom-type_H_E-State(SH2)_value"/>
+        <Class IRI="#Sum_of_atom-type_H_E-State(SH2)"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Absorption_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#AlogP_descriptor_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#BBB_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Biological_Target_PDB"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Biological_Target_family"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Biological_Target_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Charges_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Chemical_Descriptor_ID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Contribution_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Dipole_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#EC50_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Esolv.Water_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Excretion_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Finger_Prints_PubChem"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Finger_Prints_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#FreeE_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Functional_Group_Descriptor_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HBA_count_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HBD_count_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HOMO_Energy_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#IC50_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Inhibitor_ID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#LUMO_Energy_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Metabolism_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Molecular_mass_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Osc.Force_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Pharmacophoric_Group_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Tissue_Distribution_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Toxicity_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Transition_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ZeroE_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ab_initio_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#acidic_group_count_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#alcohol_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#aldehyde_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amide_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amine_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#aromatic_atom_count_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#atom_count_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#atomic_QSAR_descriptor_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#basic_group_count_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#benzene_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#bioassay_method"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#bond_count_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#carbon_atom_count"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#carboxylic_acid_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#chlorine_atom_count"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cross-validation_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cycle_count_containing_heteroatoms_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cycle_count_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#disease_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#double_bond_count"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#drug_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#drug_phase"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ester_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ether_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#external_validation_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fluorine_atom_count"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#genetic_algorithm_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#halogen_atom_count"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hartree-fock_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#heavy_atom_count_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hydrocarbon_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hydrogen_atom_count"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#in_silico_method"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#in_vitro_celular_lineage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#in_vitro_method"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#in_vitro_temperature"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#in_vivo_method"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#in_vivo_organism"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#internal_validation_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ketone_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#linear_QSAR_software"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#lipinski_violation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#molar_refractivity_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#monte_carlo_algorithm_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nitrogen_atom_count"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#non-linear_dimensional_QSAR_software"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#oxygen_atom_count"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#pIC50_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#pKi_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#partition_coefficient_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#phenols_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#pi-electron_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#plane_polarized_light_method_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#polar_surface_area_descriptor_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#publication_DOI"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#publication_authors"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#publication_date"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#publication_journal"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#publication_title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#regression_statistics_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rotatable_bond_count_excluding_terminal_bonds"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rotatable_bond_count_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#semi-empirical_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#single_bond_count"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#split_validation_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#supervised_learning_algorithm_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#three_dimensional_QSAR_software"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#trial_and_error_algorithm_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#triple_bond_count"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tumor_aggressiveness"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tumor_phase"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tumor_size_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#two_dimensional_QSAR_software"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#valence_electron_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#y_scrambling_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#zagreb_index_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Abs.máx(eV)_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Abs.máx(nM)_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HBA_count(Lipinski_definition)_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HBD_count(Lipinski_definition)_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Minimum_E-States_for_(strong)_Hydrogen_Bond_acceptors_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Minimum_E-States_for_(strong)_Hydrogen_Bond_donors_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Moreau-Broto_autocorrelation(first_ionization_potential)_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Moreau-Broto_autocorrelation(mass)_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Moreau-Broto_autocorrelation(polarizability)_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Moreau-Broto_autocorrelation(van_der_Waals_volumes)_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Sum_of_atom-type_H_E-State(NH)_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Sum_of_atom-type_H_E-State(NH2)_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Sum_of_atom-type_H_E-State(OH)_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Sum_of_atom-type_H_E-State(SH2)_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

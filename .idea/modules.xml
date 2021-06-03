@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../leitura_owl/.idea/leitura_owl.iml" filepath="$PROJECT_DIR$/../leitura_owl/.idea/leitura_owl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../prog_similaridades_v7/.idea/prog_similaridades_v4.iml" filepath="$PROJECT_DIR$/../prog_similaridades_v7/.idea/prog_similaridades_v4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/prog_similaridades_v8.iml" filepath="$PROJECT_DIR$/.idea/prog_similaridades_v8.iml" />
+    </modules>
+  </component>
+</project>
